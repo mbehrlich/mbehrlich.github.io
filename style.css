@@ -1,5 +1,91 @@
+html, body, h1, h2, h3, p, div, img, ul, li, a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  text-align: inherit;
+  box-sizing: inherit;
+  font: inherit;
+  text-decoration: none;
+  list-style: none;
+  background-color: transparent;
+}
+
+body {
+  font-family: sans-serif;
+  color: #3f3f3f;
+  font-size: 12px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
 .container {
   width: 100%;
   max-width: 900px;
   margin: 0 auto;
+  background-color: #9f9f9f;
+  box-sizing: border-box;
+  display: flex;
+  padding: 5px;
+}
+
+.sidebar {
+  width: 30%;
+  max-width: 300px;
+  padding: 10px;
+}
+
+.side-pic {
+  width: 100%;
+  height: auto;
+  background-color: #cacaca;
+  border: 1px solid #7a7a7a;
+}
+
+
+.info {
+  margin-top: 20px;
+  width: 100%;
+  background-color: #cacaca;
+  border: 1px solid #7a7a7a;
+  padding: 5px;
+}
+
+.main {
+  width: 70%;
+  max-width: 600px;
+  padding: 10px;
+}
+
+.header {
+  padding: 10px;
+}
+
+.body {
+  background-color: #cacaca;
+  border: 1px solid #7a7a7a;
+  padding: 10px;
+
+}
+
+.body li {
+  margin-top: 20px;
+}
+
+.body p {
+  margin-top: 5px;
+}
+
+.body a {
+  color: blue;
+}
+
+.body a:hover {
+  text-decoration: underline;
 }
